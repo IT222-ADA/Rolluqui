@@ -1,0 +1,40 @@
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (master)
+$ git add .
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Readme.md
+
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (master)
+$ git commit -m "add Readme"
+[master (root-commit) 38ab134] add Readme
+ 1 file changed, 4 insertions(+)
+ create mode 100644 Readme.md
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (master)
+$ git branch -M main
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (main)
+$ git remote add origin https://github.com/IT222-ADA/Rolluqui.git
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (main)
+$ git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 263 bytes | 263.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/IT222-ADA/Rolluqui.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+OCCS@CL1-PC20 MINGW64 ~/documents/Rolluqui (main)
+$
